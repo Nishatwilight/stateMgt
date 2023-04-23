@@ -1,0 +1,6 @@
+<h4>List of Customers</h4>
+    <div *ngFor="let customer of customers$|async; let i = index;"> <!-- 16 async - value late a kedachalum kedachidum-->
+      <span>{{ i + 1 }}</span> {{ customer.name }} <!--17  Then create a component(cus-add) go to thats ts-->
+    </div>
+
+
